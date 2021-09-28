@@ -6,11 +6,11 @@ pipeline {
                 echo 'Checkout'
             }
         }
-        stage('Testing') {
-            steps {
-                sh "go test -short -coverprofile=bin/cov.out `go list./..|grep -v vendor/`"
-            }
-        }
+        // stage('Testing') {
+        //     steps {
+        //         sh "go test -short -coverprofile=bin/cov.out `go list./..|grep -v vendor/`"
+        //     }
+        // }
         stage('Sonar') {
             environment {
                 scannerHome = tool 'SonarQubeScanner'
