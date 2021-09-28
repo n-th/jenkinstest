@@ -6,24 +6,6 @@ pipeline {
                 echo 'Checkout'
             }
         }
-        stage('Build') {
-            steps {
-                echo 'Clean Build'
-                bat 'mvn clean compile'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing'
-                bat 'mvn test'
-            }
-        }
-        stage('JaCoCo') {
-            steps {
-                echo 'Code Coverage'
-                jacoco()
-            }
-        }
         stage('Sonar') {
             environment {
                 scannerHome = tool 'SonarQubeScanner'

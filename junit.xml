@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="0" failures="0" time="0.309" name="istio.io/istio/cni/cmd/istio-cni">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.599" name="istio.io/istio/cni/pkg/install-cni/pkg/install">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.370" name="istio.io/istio/cni/pkg/repair">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.295" name="istio.io/istio/cni/pkg/taint">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="5.615" name="istio.io/istio/cni/test">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.480" name="istio.io/istio/galley/pkg/config/analysis">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="12.198" name="istio.io/istio/galley/pkg/config/analysis/analyzers">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.966" name="istio.io/istio/galley/pkg/config/analysis/analyzers/authz">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.630" name="istio.io/istio/galley/pkg/config/analysis/analyzers/schema">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.523" name="istio.io/istio/galley/pkg/config/analysis/analyzers/util">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.755" name="istio.io/istio/galley/pkg/config/analysis/diag">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.701" name="istio.io/istio/galley/pkg/config/analysis/local">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.377" name="istio.io/istio/galley/pkg/config/collection">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.211" name="istio.io/istio/galley/pkg/config/mesh">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="4.103" name="istio.io/istio/galley/pkg/config/processing">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="4.223" name="istio.io/istio/galley/pkg/config/processing/snapshotter">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="4.784" name="istio.io/istio/galley/pkg/config/processing/snapshotter/strategy">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.918" name="istio.io/istio/galley/pkg/config/processing/transformer">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.065" name="istio.io/istio/galley/pkg/config/processor">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.126" name="istio.io/istio/galley/pkg/config/processor/groups">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.176" name="istio.io/istio/galley/pkg/config/processor/transforms/direct">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.179" name="istio.io/istio/galley/pkg/config/source/inmemory">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.123" name="istio.io/istio/galley/pkg/config/source/kube">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="15.500" name="istio.io/istio/galley/pkg/config/source/kube/apiserver">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.702" name="istio.io/istio/galley/pkg/config/source/kube/apiserver/status">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.486" name="istio.io/istio/galley/pkg/config/source/kube/apiserver/tombstone">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.522" name="istio.io/istio/galley/pkg/config/source/kube/inmemory">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.300" name="istio.io/istio/galley/pkg/config/source/kube/rt">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.335" name="istio.io/istio/galley/pkg/config/source/mcp">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.436" name="istio.io/istio/galley/pkg/config/testing/fixtures">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.090" name="istio.io/istio/galley/pkg/config/util/kubeyaml">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.119" name="istio.io/istio/galley/pkg/config/util/pb">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.624" name="istio.io/istio/galley/pkg/server/components">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.448" name="istio.io/istio/galley/pkg/server/settings">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="32.956" name="istio.io/istio/istioctl/cmd">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.177" name="istio.io/istio/istioctl/cmd/istioctl">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.603" name="istio.io/istio/istioctl/pkg/install/k8sversion">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.675" name="istio.io/istio/istioctl/pkg/multicluster">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.588" name="istio.io/istio/istioctl/pkg/util/formatting">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.690" name="istio.io/istio/istioctl/pkg/util/handlers">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.507" name="istio.io/istio/istioctl/pkg/validate">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.973" name="istio.io/istio/istioctl/pkg/verifier">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.275" name="istio.io/istio/istioctl/pkg/writer/compare/sds">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.701" name="istio.io/istio/istioctl/pkg/writer/envoy/configdump">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.947" name="istio.io/istio/istioctl/pkg/writer/pilot">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="289.309" name="istio.io/istio/operator/cmd/mesh">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.803" name="istio.io/istio/operator/pkg/apis/istio/v1alpha1">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="4.640" name="istio.io/istio/operator/pkg/apis/istio/v1alpha1/validation">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.352" name="istio.io/istio/operator/pkg/cache">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.142" name="istio.io/istio/operator/pkg/compare">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.748" name="istio.io/istio/operator/pkg/controlplane">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.355" name="istio.io/istio/operator/pkg/helm">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="12.070" name="istio.io/istio/operator/pkg/helmreconciler">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.075" name="istio.io/istio/operator/pkg/httprequest">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.210" name="istio.io/istio/operator/pkg/manifest">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.353" name="istio.io/istio/operator/pkg/name">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.510" name="istio.io/istio/operator/pkg/object">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.466" name="istio.io/istio/operator/pkg/patch">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.724" name="istio.io/istio/operator/pkg/tpath">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.862" name="istio.io/istio/operator/pkg/translate">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.164" name="istio.io/istio/operator/pkg/util">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.994" name="istio.io/istio/operator/pkg/util/progress">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.530" name="istio.io/istio/operator/pkg/validate">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.244" name="istio.io/istio/operator/pkg/version">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.010" name="istio.io/istio/pilot/cmd/pilot-agent">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.680" name="istio.io/istio/pilot/cmd/pilot-agent/config">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.046" name="istio.io/istio/pilot/cmd/pilot-agent/options">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.230" name="istio.io/istio/pilot/cmd/pilot-agent/status">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.757" name="istio.io/istio/pilot/cmd/pilot-agent/status/ready">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="32.346" name="istio.io/istio/pilot/pkg/bootstrap">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.511" name="istio.io/istio/pilot/pkg/config/aggregate">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.431" name="istio.io/istio/pilot/pkg/config/kube/crd">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.574" name="istio.io/istio/pilot/pkg/config/kube/crdclient">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="4.585" name="istio.io/istio/pilot/pkg/config/kube/gateway">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.106" name="istio.io/istio/pilot/pkg/config/kube/ingress">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.226" name="istio.io/istio/pilot/pkg/config/kube/ingressv1">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.633" name="istio.io/istio/pilot/pkg/config/memory">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.189" name="istio.io/istio/pilot/pkg/config/monitor">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="5.658" name="istio.io/istio/pilot/pkg/controller/workloadentry">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.459" name="istio.io/istio/pilot/pkg/dns">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.061" name="istio.io/istio/pilot/pkg/keycertbundle">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.398" name="istio.io/istio/pilot/pkg/leaderelection">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="1" failures="1" time="8.509" name="istio.io/istio/pilot/pkg/model">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+		<testcase classname="model" name="Failure" time="0.000">
+			<failure message="Failed" type="">&#xA;&#xA;&#xA;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.177" name="istio.io/istio/pilot/pkg/networking">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.024" name="istio.io/istio/pilot/pkg/networking/apigen">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="25.927" name="istio.io/istio/pilot/pkg/networking/core/v1alpha3">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.043" name="istio.io/istio/pilot/pkg/networking/core/v1alpha3/envoyfilter">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.588" name="istio.io/istio/pilot/pkg/networking/core/v1alpha3/loadbalancer">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.562" name="istio.io/istio/pilot/pkg/networking/core/v1alpha3/route">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.598" name="istio.io/istio/pilot/pkg/networking/core/v1alpha3/route/retry">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.965" name="istio.io/istio/pilot/pkg/networking/grpcgen">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.559" name="istio.io/istio/pilot/pkg/networking/plugin/registry">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.819" name="istio.io/istio/pilot/pkg/networking/util">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.163" name="istio.io/istio/pilot/pkg/request">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.591" name="istio.io/istio/pilot/pkg/secrets/kube">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.213" name="istio.io/istio/pilot/pkg/security/authn/v1beta1">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="6.725" name="istio.io/istio/pilot/pkg/security/authz/builder">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.463" name="istio.io/istio/pilot/pkg/security/authz/matcher">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.867" name="istio.io/istio/pilot/pkg/security/authz/model">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.653" name="istio.io/istio/pilot/pkg/security/model">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.114" name="istio.io/istio/pilot/pkg/security/trustdomain">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.322" name="istio.io/istio/pilot/pkg/server">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="10.277" name="istio.io/istio/pilot/pkg/serviceregistry">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.440" name="istio.io/istio/pilot/pkg/serviceregistry/aggregate">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.472" name="istio.io/istio/pilot/pkg/serviceregistry/kube">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="12.556" name="istio.io/istio/pilot/pkg/serviceregistry/kube/controller">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.720" name="istio.io/istio/pilot/pkg/serviceregistry/mock">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="5.286" name="istio.io/istio/pilot/pkg/serviceregistry/serviceentry">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.844" name="istio.io/istio/pilot/pkg/status">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="4.371" name="istio.io/istio/pilot/pkg/trustbundle">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.259" name="istio.io/istio/pilot/pkg/util/network">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.238" name="istio.io/istio/pilot/pkg/util/runtime">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.104" name="istio.io/istio/pilot/pkg/util/sets">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="63.073" name="istio.io/istio/pilot/pkg/xds">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.676" name="istio.io/istio/pkg/adsc">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="22.813" name="istio.io/istio/pkg/bootstrap">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.298" name="istio.io/istio/pkg/bootstrap/option">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.246" name="istio.io/istio/pkg/bootstrap/platform">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.160" name="istio.io/istio/pkg/cmd">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.373" name="istio.io/istio/pkg/config">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.334" name="istio.io/istio/pkg/config/crd">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="10.196" name="istio.io/istio/pkg/config/event">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.136" name="istio.io/istio/pkg/config/host">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.227" name="istio.io/istio/pkg/config/labels">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.982" name="istio.io/istio/pkg/config/mesh">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="5.093" name="istio.io/istio/pkg/config/mesh/kubemesh">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.075" name="istio.io/istio/pkg/config/protocol">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.995" name="istio.io/istio/pkg/config/resource">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="47.622" name="istio.io/istio/pkg/config/schema">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.921" name="istio.io/istio/pkg/config/schema/ast">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.702" name="istio.io/istio/pkg/config/schema/codegen">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.769" name="istio.io/istio/pkg/config/schema/collection">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.164" name="istio.io/istio/pkg/config/schema/collections">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.460" name="istio.io/istio/pkg/config/schema/resource">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.136" name="istio.io/istio/pkg/config/security">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.557" name="istio.io/istio/pkg/config/validation">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="13.537" name="istio.io/istio/pkg/envoy">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="29.056" name="istio.io/istio/pkg/istio-agent">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.516" name="istio.io/istio/pkg/istio-agent/health">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.035" name="istio.io/istio/pkg/keepalive">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.806" name="istio.io/istio/pkg/kube">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.266" name="istio.io/istio/pkg/kube/configmapwatcher">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="195.575" name="istio.io/istio/pkg/kube/inject">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.351" name="istio.io/istio/pkg/kube/secretcontroller">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.225" name="istio.io/istio/pkg/listwatch">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.763" name="istio.io/istio/pkg/mcp/internal">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.163" name="istio.io/istio/pkg/mcp/snapshot">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.350" name="istio.io/istio/pkg/queue">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.126" name="istio.io/istio/pkg/spiffe">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.318" name="istio.io/istio/pkg/test">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.591" name="istio.io/istio/pkg/test/framework">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.935" name="istio.io/istio/pkg/test/framework/components/cluster/clusterboot">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.164" name="istio.io/istio/pkg/test/framework/components/cluster/staticvm">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.647" name="istio.io/istio/pkg/test/framework/components/echo">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="5.102" name="istio.io/istio/pkg/test/framework/components/echo/cmd/echogen">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.410" name="istio.io/istio/pkg/test/framework/components/echo/echotest">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.944" name="istio.io/istio/pkg/test/framework/components/echo/kube">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.817" name="istio.io/istio/pkg/test/framework/components/namespace">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="10.362" name="istio.io/istio/pkg/test/framework/integration">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.173" name="istio.io/istio/pkg/test/framework/label">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.643" name="istio.io/istio/pkg/test/framework/resource">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.172" name="istio.io/istio/pkg/test/framework/tools/featuresgen/cmd">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.468" name="istio.io/istio/pkg/test/util/retry">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.645" name="istio.io/istio/pkg/test/util/structpath">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.713" name="istio.io/istio/pkg/test/util/yml">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.202" name="istio.io/istio/pkg/uds">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.236" name="istio.io/istio/pkg/url">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.203" name="istio.io/istio/pkg/util/gogo">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.220" name="istio.io/istio/pkg/util/shellescape">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.381" name="istio.io/istio/pkg/util/strcase">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.508" name="istio.io/istio/pkg/wasm">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.376" name="istio.io/istio/pkg/webhooks">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.143" name="istio.io/istio/pkg/webhooks/validation/controller">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.317" name="istio.io/istio/pkg/webhooks/validation/server">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.114" name="istio.io/istio/samples/jwt-server/src">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.169" name="istio.io/istio/samples/tcp-echo/src">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.403" name="istio.io/istio/security/pkg/credentialfetcher">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="6.396" name="istio.io/istio/security/pkg/credentialfetcher/plugin">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.243" name="istio.io/istio/security/pkg/k8s">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="27.354" name="istio.io/istio/security/pkg/k8s/chiron">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.136" name="istio.io/istio/security/pkg/k8s/secret">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="12.831" name="istio.io/istio/security/pkg/nodeagent/cache">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.290" name="istio.io/istio/security/pkg/nodeagent/caclient">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.193" name="istio.io/istio/security/pkg/nodeagent/caclient/providers/citadel">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="6.025" name="istio.io/istio/security/pkg/nodeagent/caclient/providers/google">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="5.295" name="istio.io/istio/security/pkg/nodeagent/plugin/providers/google/stsclient">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="8.306" name="istio.io/istio/security/pkg/nodeagent/sds">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.182" name="istio.io/istio/security/pkg/nodeagent/test/cert_rotation">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.684" name="istio.io/istio/security/pkg/nodeagent/test/csr_failure">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.801" name="istio.io/istio/security/pkg/nodeagent/test/empty_certchain">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.690" name="istio.io/istio/security/pkg/nodeagent/test/success_sds">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="31.757" name="istio.io/istio/security/pkg/pki/ca">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.058" name="istio.io/istio/security/pkg/pki/error">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="5.703" name="istio.io/istio/security/pkg/pki/ra">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="35.261" name="istio.io/istio/security/pkg/pki/util">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.090" name="istio.io/istio/security/pkg/server/ca">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.519" name="istio.io/istio/security/pkg/server/ca/authenticate">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.195" name="istio.io/istio/security/pkg/server/ca/authenticate/kubeauth">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="2.980" name="istio.io/istio/security/pkg/stsservice/server">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="29.864" name="istio.io/istio/security/pkg/stsservice/test/failure_sts_token_fetch">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="5.773" name="istio.io/istio/security/pkg/stsservice/test/proxy_cached_sts_token">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="14.443" name="istio.io/istio/security/pkg/stsservice/test/renew_sts_token">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="10.918" name="istio.io/istio/security/pkg/stsservice/test/server_cached_short_lived_sts_token">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="8.133" name="istio.io/istio/security/pkg/stsservice/test/server_cached_sts_token">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="32.443" name="istio.io/istio/security/pkg/stsservice/test/sts_fetch_timeout">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="6.501" name="istio.io/istio/security/pkg/stsservice/test/success_sts">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="6.018" name="istio.io/istio/security/pkg/stsservice/tokenmanager">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="3.582" name="istio.io/istio/security/pkg/stsservice/tokenmanager/google">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.202" name="istio.io/istio/security/pkg/util">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.354" name="istio.io/istio/tests/binary">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.174" name="istio.io/istio/tests/common/jwt">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="1.616" name="istio.io/istio/tests/fuzz">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.502" name="istio.io/istio/tests/util/leak">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.668" name="istio.io/istio/tools/bug-report/pkg/config">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.790" name="istio.io/istio/tools/bug-report/pkg/filter">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.496" name="istio.io/istio/tools/bug-report/pkg/processlog">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.054" name="istio.io/istio/tools/istio-iptables/pkg/builder">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.302" name="istio.io/istio/tools/istio-iptables/pkg/cmd">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.141" name="istio.io/istio/tools/istio-iptables/pkg/validation">
+		<properties>
+			<property name="go.version" value="go1.16.4"></property>
+		</properties>
+	</testsuite>
+</testsuites>
