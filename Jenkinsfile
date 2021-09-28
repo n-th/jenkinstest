@@ -35,17 +35,6 @@ pipeline {
                 }
             }
         }
-        stage('Package') {
-            steps {
-                echo 'Packaging'
-                bat 'mvn package -DskipTests'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo '## TODO DEPLOYMENT ##'
-            }
-        }
     }
     
     post {
