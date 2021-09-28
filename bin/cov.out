@@ -1,0 +1,11 @@
+mode: set
+example.com/greetings/greetings.go:11.41,13.16 1 1
+example.com/greetings/greetings.go:17.2,18.21 2 1
+example.com/greetings/greetings.go:13.16,15.3 1 1
+example.com/greetings/greetings.go:23.56,28.29 2 0
+example.com/greetings/greetings.go:37.2,37.22 1 0
+example.com/greetings/greetings.go:28.29,30.17 2 0
+example.com/greetings/greetings.go:35.3,35.27 1 0
+example.com/greetings/greetings.go:30.17,32.4 1 0
+example.com/greetings/greetings.go:41.13,43.2 1 1
+example.com/greetings/greetings.go:47.28,57.2 2 1
