@@ -6,11 +6,13 @@ pipeline {
                 echo 'Checkout'
             }
         }
-        // stage('Testing') {
-        //     steps {
-        //         sh "go test -short -coverprofile=bin/cov.out `go list./..|grep -v vendor/`"
-        //     }
-        // }
+        stage('Testing') {
+            steps {
+                sh "gocov test . | gocov-xml > bin/coverage.xml"
+            }
+        }
+
+        
         stage('Sonar') {
             environment {
                 scannerHome = tool 'SonarQubeScanner'
@@ -26,7 +28,12 @@ pipeline {
     
     post {
         always {
-            echo 'JENKINS PIPELINE'
+            echo 'I will always say Hello again!'
+            
+            emailext body: "${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n More info at: ${env.BUILD_URL}",
+                recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+                subject: "Jenkins Build ${currentBuild.currentResult}: Job ${env.JOB_NAME}"
+            
         }
         success {
             echo 'JENKINS PIPELINE SUCCESSFUL'
