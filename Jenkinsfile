@@ -22,17 +22,17 @@ pipeline {
                 waitForQualityGate abortPipeline: true
             }
         }
-    
+
     }
-    
+
     post {
         always {
             echo 'I will always say Hello again!'
-            
+
             emailext body: "${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n More info at: ${env.BUILD_URL}",
-                recipientProviders: [[$class: 'RequesterRecipientProvider']],
+                recipientProviders: [[$class: 'RequesterRecipientProvider'], [$class:'DeveloperRecipientProvider']],
                 subject: "Jenkins Build ${currentBuild.currentResult}: Job ${env.JOB_NAME}",
-                to: "tempnathemail@gmail.com"            
+                to: "tempnathemail@gmail.com"
         }
         success {
             echo 'JENKINS PIPELINE SUCCESSFUL'
