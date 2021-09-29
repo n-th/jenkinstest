@@ -38,16 +38,13 @@ pipeline {
     }
 
     post {
-        always {
-            emailext body: "${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n More info at: ${env.BUILD_URL}",
-                recipientProviders: [[$class: 'RequesterRecipientProvider'], [$class:'DevelopersRecipientProvider']],
-                subject: "Jenkins Build ${currentBuild.currentResult}: Job ${env.JOB_NAME}"
-        }
         success {
             echo 'JENKINS PIPELINE SUCCESSFUL'
         }
         failure {
-            echo 'JENKINS PIPELINE FAILED'
+            emailext body: "${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n More info at: ${env.BUILD_URL}",
+                recipientProviders: [[$class: 'RequesterRecipientProvider'], [$class:'DevelopersRecipientProvider']],
+                subject: "Jenkins Build ${currentBuild.currentResult}: Job ${env.JOB_NAME}"
         }
         unstable {
             echo 'JENKINS PIPELINE WAS MARKED AS UNSTABLE'
