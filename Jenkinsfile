@@ -14,7 +14,6 @@ pipeline {
         stage('Run test') {
             steps {
                 sh "docker version"
-                sh "docker run -v /var/run/docker.sock:/var/run/docker.sock --mount type=bind,source=/var/lib/jenkins/workspace/JENKINS-BOOT,target=/usr/src/myapp/bin dinonel/inkatho"
             }
         }
         stage('Sonar') {
