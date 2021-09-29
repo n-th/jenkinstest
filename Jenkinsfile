@@ -6,6 +6,13 @@ pipeline {
                 echo 'Checkout'
             }
         }
+        stage('Run test') {
+            steps {
+                sh "ls"
+                sh "pwd"
+                sh "docker run --mount type=bind,source=,target=/usr/src/myapp/bin dinonel/inkatho"
+            }
+        }
         stage('Sonar') {
             environment {
                 scannerHome = tool 'SonarQubeScanner'
@@ -17,18 +24,15 @@ pipeline {
                 }
             }
         }
-        stage('Test Coverage Gate') {
+        stage('Quality Gate') {
             steps {
                 waitForQualityGate abortPipeline: true
             }
         }
-
     }
 
     post {
         always {
-            echo 'I will always say Hello again!'
-
             emailext body: "${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n More info at: ${env.BUILD_URL}",
                 recipientProviders: [[$class: 'RequesterRecipientProvider'], [$class:'DevelopersRecipientProvider']],
                 subject: "Jenkins Build ${currentBuild.currentResult}: Job ${env.JOB_NAME}"
