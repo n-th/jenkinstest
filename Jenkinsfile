@@ -17,6 +17,12 @@ pipeline {
                 }
             }
         }
+        stage('Test Coverage Gate') {
+            def qg = waitForQualityGate()
+            if (gq.status != 'OK') {
+                error "Aborting due to quality gate failure: ${qg.status}"
+            }
+        }
     }
     
     post {
