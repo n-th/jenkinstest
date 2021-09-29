@@ -6,7 +6,9 @@ pipeline {
                 dockerHome = tool 'Docker'
             }
             steps {
-                env.PATH = "${dockerHome}/bin:${env.PATH}"
+                script {
+                    env.PATH = "${dockerHome}/bin:${env.PATH}"
+                }
             }
         }
         stage('Run test') {
