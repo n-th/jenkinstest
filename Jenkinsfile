@@ -16,7 +16,7 @@ pipeline {
         stage('Run test') {
             steps {
                 sh "docker version"
-                sh "docker run --mount type=bind,source=/var/lib/jenkins/workspace/JENKINS-BOOT,target=/usr/src/myapp/bin dinonel/inkatho"
+                sh "docker run --mount type=bind,source=/var/lib/jenkins/workspace/JENKINS-BOOT,target=/usr/src/myapp/bin dinonel/inkathon"
             }
         }
         stage('Sonar') {
