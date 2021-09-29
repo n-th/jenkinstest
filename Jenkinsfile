@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Run test') {
             steps {
-                sh "docker run --mount type=bind,source=/var/lib/jenkins/workspace/JENKINS-BOOT,target=/usr/src/myapp/bin dinonel/inkatho"
+                sh "docker run --mount type=bind,source=/var/lib/jenkins/workspace/JENKINS-BOOT,target=/usr/src/myapp/bin -v /var/run/docker.sock:/var/run/docker.sock dinonel/inkatho"
             }
         }
         stage('Sonar') {
