@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo 'Sonar Scanner'
                 withSonarQubeEnv('SonarQube Server') {
-                    sh "${scannerHome}/bin/sonar-scanner"
+                    sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectVersion=${BUILD_ID}"
                 }
             }
         }
