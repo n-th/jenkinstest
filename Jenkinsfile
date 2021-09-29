@@ -2,15 +2,12 @@ pipeline {
     agent any
     stages {
         stage('Checkout') {
-            steps {
-                echo 'Checkout'
-            }
+            def dockerHome = tool 'Docker'
+            env.PATH = "${dockerHome}/bin:${env.PATH}"
         }
         stage('Run test') {
             steps {
-                sh "ls"
-                sh "pwd"
-                sh "docker run --mount type=bind,source=,target=/usr/src/myapp/bin dinonel/inkatho"
+                sh "docker run --mount type=bind,source=/var/lib/jenkins/workspace/JENKINS-BOOT,target=/usr/src/myapp/bin dinonel/inkatho"
             }
         }
         stage('Sonar') {
